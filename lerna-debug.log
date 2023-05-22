@@ -2,13 +2,11 @@
 0 silly argv   _: [ 'add' ],
 0 silly argv   scope: 'cli',
 0 silly argv   globs: [],
-0 silly argv   lernaVersion: '6.6.2',
-0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js',
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\leona\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
 0 silly argv   pkg: 'local-api'
 0 silly argv }
-1 notice cli v6.6.2
+1 notice cli v3.22.1
 2 verbose rootPath C:\Users\leona\OneDrive\Documentos\Study\Udemy\Stephen Grider\React and Typescript\jbook-lerna
-3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/local-api - Not found
-3 error     at C:\Users\leona\OneDrive\Documentos\Study\Udemy\Stephen Grider\React and Typescript\jbook-lerna\node_modules\npm-registry-fetch\lib\check-response.js:95:15
-3 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-3 error     at async RegistryFetcher.packument (C:\Users\leona\OneDrive\Documentos\Study\Udemy\Stephen Grider\React and Typescript\jbook-lerna\node_modules\pacote\lib\registry.js:87:19)
+3 error Error: 404 Not Found - GET https://registry.npmjs.org/local-api - Not found
+3 error     at C:\Users\leona\AppData\Roaming\npm\node_modules\lerna\node_modules\@evocateur\npm-registry-fetch\check-response.js:104:15

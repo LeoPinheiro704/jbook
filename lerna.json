@@ -1,4 +1,4 @@
 {
-  "packages": ["cli/", "local-api/", "packages/"],
+  "packages": ["packages/cli/", "packages/local-api/", "packages/jbook/"],
   "version": "0.0.0"
 }
